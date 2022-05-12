@@ -18,7 +18,7 @@ function calcular(){
   var resultado = document.getElementById('result').innerHTML;
   if(resultado){
     document.getElementById('result').innerHTML = eval (resultado);
-    //"eval" comando q faz os calculos e
+    //"eval"  comando q faz os calculos e
   }
   else{
     document.getElementById('result').innerHTML = "Nada para calcular"
